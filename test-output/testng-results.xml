@@ -1,0 +1,1534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'maudio.test.suite.tests.SearchTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Main page' appears in 570msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'Search textbox' :: Typing 'KOSS The PLUG'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Search button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Search results' appears in 1420msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'Ссылка на искомый товар' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Item page' appears in 1553msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[*******************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'maudio.test.suite.tests.SearchTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[*******************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'maudio.test.suite.tests.AddToCartTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Main page' appears in 2320msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Goods catalog' appears in 2950msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Cart' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Cart' appears in 4009msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'maudio.test.suite.tests.AddToCartTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[**********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'maudio.test.suite.tests.RemoveFromCartTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Main page' appears in 650msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Goods catalog' appears in 4900msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Cart' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Cart' appears in 1480msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Cart' appears in 1060msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[***************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'maudio.test.suite.tests.RemoveFromCartTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[***************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'maudio.test.suite.tests.LogInPositiveTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Main page' appears in 420msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'Log in or register' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Become a client' appears in 1320msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'null' :: Typing 'scientificmethod@yandex.ru'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'null' :: Typing 'procrastination'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'User Page' appears in 1760msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'maudio.test.suite.tests.LogInPositiveTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'maudio.test.suite.tests.LogInNegativeTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Main page' appears in 841msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'Log in or register' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Become a client' appears in 1170msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'null' :: Typing 'jnhewrg'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'null' :: Typing 'kljne'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Become a client' appears in 1602msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'maudio.test.suite.tests.LogInNegativeTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'maudio.test.suite.tests.PriseDisplayTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Main page' appears in 429msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Goods catalog' appears in 3250msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Item page' appears in 2370msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Item page' appears in 310msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'maudio.test.suite.tests.PriseDisplayTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'maudio.test.suite.tests.CompareTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Main page' appears in 420msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Goods catalog' appears in 4612msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Items comparison' appears in 2068msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'maudio.test.suite.tests.CompareTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[********************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'maudio.test.suite.tests.CatalogFilterTest' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Main page' appears in 453msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Goods catalog' appears in 3923msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Label 'null' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Goods catalog' appears in 2430msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'maudio.test.suite.tests.CatalogFilterTest' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Plan" duration-ms="187953" started-at="2014-12-07T13:15:52Z" finished-at="2014-12-07T13:19:00Z">
+    <groups>
+    </groups>
+    <test name="01. Search Test" duration-ms="14909" started-at="2014-12-07T13:15:52Z" finished-at="2014-12-07T13:16:07Z">
+      <class name="maudio.test.suite.tests.SearchTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:maudio.test.suite.tests.SearchTest@db23f1]" name="before" is-config="true" duration-ms="170" started-at="2014-12-07T08:15:52Z" finished-at="2014-12-07T08:15:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@16b61c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:maudio.test.suite.tests.SearchTest@db23f1]" name="xTest" duration-ms="13884" started-at="2014-12-07T08:15:52Z" finished-at="2014-12-07T08:16:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'maudio.test.suite.tests.SearchTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main page' appears in 570msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'Search textbox' :: Typing 'KOSS The PLUG'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Search button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Search results' appears in 1420msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'Ссылка на искомый товар' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Item page' appears in 1553msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[*******************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'maudio.test.suite.tests.SearchTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[*******************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:maudio.test.suite.tests.SearchTest@db23f1]" name="readParams" is-config="true" duration-ms="0" started-at="2014-12-07T08:15:52Z" finished-at="2014-12-07T08:15:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.maudio.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KOSS The PLUG]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='border']//a[contains(., 'KOSS The PLUG')]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="after()[pri:0, instance:maudio.test.suite.tests.SearchTest@db23f1]" name="after" is-config="true" duration-ms="795" started-at="2014-12-07T08:16:06Z" finished-at="2014-12-07T08:16:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- maudio.test.suite.tests.SearchTest -->
+    </test> <!-- 01. Search Test -->
+    <test name="02. Add to cart Test" duration-ms="29557" started-at="2014-12-07T13:16:07Z" finished-at="2014-12-07T13:16:37Z">
+      <class name="maudio.test.suite.tests.AddToCartTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:maudio.test.suite.tests.AddToCartTest@83e1e]" name="before" is-config="true" duration-ms="10411" started-at="2014-12-07T08:16:07Z" finished-at="2014-12-07T08:16:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@df4bfc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:maudio.test.suite.tests.AddToCartTest@83e1e]" name="readParams" is-config="true" duration-ms="50" started-at="2014-12-07T08:16:17Z" finished-at="2014-12-07T08:16:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.maudio.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='box']//a[contains(., 'Все наушники')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='border']//div[2]/div[@class='cart']/input[@value='Купить']]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//div[@class='border']//div[2]/div[@class='name']/a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:maudio.test.suite.tests.AddToCartTest@83e1e]" name="xTest" duration-ms="18416" started-at="2014-12-07T08:16:18Z" finished-at="2014-12-07T08:16:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'maudio.test.suite.tests.AddToCartTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main page' appears in 2320msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Goods catalog' appears in 2950msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Cart' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Cart' appears in 4009msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[**********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'maudio.test.suite.tests.AddToCartTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[**********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:maudio.test.suite.tests.AddToCartTest@83e1e]" name="after" is-config="true" duration-ms="680" started-at="2014-12-07T08:16:36Z" finished-at="2014-12-07T08:16:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- maudio.test.suite.tests.AddToCartTest -->
+    </test> <!-- 02. Add to cart Test -->
+    <test name="03. Remove from Cart Test" duration-ms="23164" started-at="2014-12-07T13:16:37Z" finished-at="2014-12-07T13:17:00Z">
+      <class name="maudio.test.suite.tests.RemoveFromCartTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:maudio.test.suite.tests.RemoveFromCartTest@1367e28]" name="before" is-config="true" duration-ms="6505" started-at="2014-12-07T08:16:37Z" finished-at="2014-12-07T08:16:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f5b4d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:maudio.test.suite.tests.RemoveFromCartTest@1367e28]" name="xTest" duration-ms="15988" started-at="2014-12-07T08:16:43Z" finished-at="2014-12-07T08:16:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[----------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'maudio.test.suite.tests.RemoveFromCartTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[----------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main page' appears in 650msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Goods catalog' appears in 4900msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Cart' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Cart' appears in 1480msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Cart' appears in 1060msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[***************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'maudio.test.suite.tests.RemoveFromCartTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[***************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:maudio.test.suite.tests.RemoveFromCartTest@1367e28]" name="readParams" is-config="true" duration-ms="0" started-at="2014-12-07T08:16:43Z" finished-at="2014-12-07T08:16:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.maudio.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='box']//a[contains(., 'Все наушники')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='border']//div[2]/div[@class='cart']/input[@value='Купить']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="after()[pri:0, instance:maudio.test.suite.tests.RemoveFromCartTest@1367e28]" name="after" is-config="true" duration-ms="671" started-at="2014-12-07T08:16:59Z" finished-at="2014-12-07T08:17:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- maudio.test.suite.tests.RemoveFromCartTest -->
+    </test> <!-- 03. Remove from Cart Test -->
+    <test name="04. Log In positive Test" duration-ms="24606" started-at="2014-12-07T13:17:00Z" finished-at="2014-12-07T13:17:24Z">
+      <class name="maudio.test.suite.tests.LogInPositiveTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:maudio.test.suite.tests.LogInPositiveTest@e1dac2]" name="before" is-config="true" duration-ms="10726" started-at="2014-12-07T08:17:00Z" finished-at="2014-12-07T08:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@323274]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:maudio.test.suite.tests.LogInPositiveTest@e1dac2]" name="readParams" is-config="true" duration-ms="0" started-at="2014-12-07T08:17:11Z" finished-at="2014-12-07T08:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.maudio.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[scientificmethod@yandex.ru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[procrastination]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:maudio.test.suite.tests.LogInPositiveTest@e1dac2]" name="xTest" duration-ms="13229" started-at="2014-12-07T08:17:11Z" finished-at="2014-12-07T08:17:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'maudio.test.suite.tests.LogInPositiveTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main page' appears in 420msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'Log in or register' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Become a client' appears in 1320msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'null' :: Typing 'scientificmethod@yandex.ru'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'null' :: Typing 'procrastination'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'User Page' appears in 1760msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'maudio.test.suite.tests.LogInPositiveTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:maudio.test.suite.tests.LogInPositiveTest@e1dac2]" name="after" is-config="true" duration-ms="651" started-at="2014-12-07T08:17:24Z" finished-at="2014-12-07T08:17:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- maudio.test.suite.tests.LogInPositiveTest -->
+    </test> <!-- 04. Log In positive Test -->
+    <test name="05. Log In negative Test" duration-ms="21940" started-at="2014-12-07T13:17:24Z" finished-at="2014-12-07T13:17:46Z">
+      <class name="maudio.test.suite.tests.LogInNegativeTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:maudio.test.suite.tests.LogInNegativeTest@1be4777]" name="before" is-config="true" duration-ms="10201" started-at="2014-12-07T08:17:24Z" finished-at="2014-12-07T08:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18e80a6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:maudio.test.suite.tests.LogInNegativeTest@1be4777]" name="readParams" is-config="true" duration-ms="0" started-at="2014-12-07T08:17:35Z" finished-at="2014-12-07T08:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.maudio.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jnhewrg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kljne]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:maudio.test.suite.tests.LogInNegativeTest@1be4777]" name="xTest" duration-ms="11109" started-at="2014-12-07T08:17:35Z" finished-at="2014-12-07T08:17:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'maudio.test.suite.tests.LogInNegativeTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main page' appears in 841msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'Log in or register' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Become a client' appears in 1170msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'null' :: Typing 'jnhewrg'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'null' :: Typing 'kljne'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Become a client' appears in 1602msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'maudio.test.suite.tests.LogInNegativeTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:maudio.test.suite.tests.LogInNegativeTest@1be4777]" name="after" is-config="true" duration-ms="630" started-at="2014-12-07T08:17:46Z" finished-at="2014-12-07T08:17:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- maudio.test.suite.tests.LogInNegativeTest -->
+    </test> <!-- 05. Log In negative Test -->
+    <test name="06. Prise display Test" duration-ms="25004" started-at="2014-12-07T13:17:46Z" finished-at="2014-12-07T13:18:11Z">
+      <class name="maudio.test.suite.tests.PriseDisplayTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:maudio.test.suite.tests.PriseDisplayTest@18bd7f1]" name="before" is-config="true" duration-ms="10627" started-at="2014-12-07T08:17:46Z" finished-at="2014-12-07T08:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a030d6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:maudio.test.suite.tests.PriseDisplayTest@18bd7f1]" name="xTest" duration-ms="13686" started-at="2014-12-07T08:17:57Z" finished-at="2014-12-07T08:18:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'maudio.test.suite.tests.PriseDisplayTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main page' appears in 429msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Goods catalog' appears in 3250msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Item page' appears in 2370msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Item page' appears in 310msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[*************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'maudio.test.suite.tests.PriseDisplayTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[*************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:maudio.test.suite.tests.PriseDisplayTest@18bd7f1]" name="readParams" is-config="true" duration-ms="0" started-at="2014-12-07T08:17:57Z" finished-at="2014-12-07T08:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.maudio.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='box']//a[contains(., 'Все наушники')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='border']//div[2]/div[@class='name']/a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="after()[pri:0, instance:maudio.test.suite.tests.PriseDisplayTest@18bd7f1]" name="after" is-config="true" duration-ms="691" started-at="2014-12-07T08:18:11Z" finished-at="2014-12-07T08:18:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- maudio.test.suite.tests.PriseDisplayTest -->
+    </test> <!-- 06. Prise display Test -->
+    <test name="07. Comparison Test" duration-ms="23364" started-at="2014-12-07T13:18:11Z" finished-at="2014-12-07T13:18:35Z">
+      <class name="maudio.test.suite.tests.CompareTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:maudio.test.suite.tests.CompareTest@df48c4]" name="before" is-config="true" duration-ms="5429" started-at="2014-12-07T08:18:11Z" finished-at="2014-12-07T08:18:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e63606]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:maudio.test.suite.tests.CompareTest@df48c4]" name="readParams" is-config="true" duration-ms="11" started-at="2014-12-07T08:18:17Z" finished-at="2014-12-07T08:18:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.maudio.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='box']//a[contains(., 'Все наушники')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='border']//div[2]/div[@class='compare']/a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//div[@class='border']//div[3]/div[@class='compare']/a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:maudio.test.suite.tests.CompareTest@df48c4]" name="xTest" duration-ms="17262" started-at="2014-12-07T08:18:17Z" finished-at="2014-12-07T08:18:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'maudio.test.suite.tests.CompareTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main page' appears in 420msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Goods catalog' appears in 4612msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Items comparison' appears in 2068msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'maudio.test.suite.tests.CompareTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[********************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:maudio.test.suite.tests.CompareTest@df48c4]" name="after" is-config="true" duration-ms="651" started-at="2014-12-07T08:18:34Z" finished-at="2014-12-07T08:18:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- maudio.test.suite.tests.CompareTest -->
+    </test> <!-- 07. Comparison Test -->
+    <test name="08. Catalog filter Test" duration-ms="25019" started-at="2014-12-07T13:18:35Z" finished-at="2014-12-07T13:19:00Z">
+      <class name="maudio.test.suite.tests.CatalogFilterTest">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:maudio.test.suite.tests.CatalogFilterTest@1db5ec]" name="before" is-config="true" duration-ms="10743" started-at="2014-12-07T08:18:35Z" finished-at="2014-12-07T08:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e4eb5b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:maudio.test.suite.tests.CatalogFilterTest@1db5ec]" name="readParams" is-config="true" duration-ms="0" started-at="2014-12-07T08:18:46Z" finished-at="2014-12-07T08:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.maudio.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//div[@class='filter-item']//a[contains(., 'AKG')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[//div[@class='border']//div[@class='name']/a[contains(., 'AKG')]]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//div[@class='box']//a[contains(., 'Все наушники')]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="xTest()[pri:0, instance:maudio.test.suite.tests.CatalogFilterTest@1db5ec]" name="xTest" duration-ms="13649" started-at="2014-12-07T08:18:46Z" finished-at="2014-12-07T08:18:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'maudio.test.suite.tests.CatalogFilterTest' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Main page' appears in 453msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Goods catalog' appears in 3923msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Label 'null' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Goods catalog' appears in 2430msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'maudio.test.suite.tests.CatalogFilterTest' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- xTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:maudio.test.suite.tests.CatalogFilterTest@1db5ec]" name="after" is-config="true" duration-ms="627" started-at="2014-12-07T08:18:59Z" finished-at="2014-12-07T08:19:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- maudio.test.suite.tests.CatalogFilterTest -->
+    </test> <!-- 08. Catalog filter Test -->
+  </suite> <!-- Test Plan -->
+</testng-results>

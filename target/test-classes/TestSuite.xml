@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Plan" verbose="1">
+	<parameter name="startpage" value="http://www.maudio.by" />
+	<parameter name="searchtext" value="KOSS The PLUG" />
+	<parameter name="soughforitem" value="//div[@class='border']//a[contains(., 'KOSS The PLUG')]" />	
+	<parameter name="catalogXpath" value="//div[@class='box']//a[contains(., 'Все наушники')]" />
+	<parameter name="itemToBuyButton" value="//div[@class='border']//div[2]/div[@class='cart']/input[@value='Купить']" />
+	<parameter name="itemToBuyName" value="//div[@class='border']//div[2]/div[@class='name']/a" />
+	<parameter name="email" value="scientificmethod@yandex.ru" />
+	<parameter name="password" value="procrastination" />
+	<parameter name="invalidEmail" value="jnhewrg" />
+	<parameter name="invalidPassword" value="kljne" />
+	<parameter name="firstItem" value="//div[@class='border']//div[2]/div[@class='compare']/a" />
+	<parameter name="secondItem" value="//div[@class='border']//div[3]/div[@class='compare']/a" />
+	<parameter name="filterMark" value="//div[@class='filter-item']//a[contains(., 'AKG')]" />
+	<parameter name="elementsMark" value="//div[@class='border']//div[@class='name']/a[contains(., 'AKG')]" />	
+	<test name="01. Search Test" preserve-order="true">		
+		<classes>
+ 			<class name="maudio.test.suite.tests.SearchTest" />
+        </classes>
+	</test>	 
+	<test name="02. Add to cart Test" preserve-order="true">
+		<classes>
+			<class name="maudio.test.suite.tests.AddToCartTest" />
+		</classes>
+	</test>	
+	<test name="03. Remove from Cart Test" preserve-order="true">
+		<classes>
+			<class name="maudio.test.suite.tests.RemoveFromCartTest" />
+		</classes>
+	</test>
+	<test name="04. Log In positive Test" preserve-order="true">		
+		<classes>
+			<class name="maudio.test.suite.tests.LogInPositiveTest" />
+		</classes>
+	</test>
+	<test name="05. Log In negative Test" preserve-order="true">
+		<classes>
+			<class name="maudio.test.suite.tests.LogInNegativeTest" />
+		</classes>
+	</test>
+	<test name="06. Prise display Test" preserve-order="true">
+		<classes>
+			<class name="maudio.test.suite.tests.PriseDisplayTest" />
+		</classes>
+	</test>
+	<test name="07. Comparison Test" preserve-order="true">
+		<classes>
+			<class name="maudio.test.suite.tests.CompareTest" />
+		</classes>
+	</test>
+	<test name="08. Catalog filter Test" preserve-order="true">
+		<classes>
+			<class name="maudio.test.suite.tests.CatalogFilterTest" />
+		</classes>
+	</test>
+</suite>

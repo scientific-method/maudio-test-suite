@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Plan">
+              <span class="suite-name border-passed">Test Plan</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Plan">
+                    <span>D:\.mywork\workspace\miniSMART_Java\WebDriver\src\test\resources\TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Plan">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Plan">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Plan">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Plan">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Plan">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Plan">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Plan" class="hide-methods passed suite-Test_Plan"> (hide)</a> <!-- hide-methods passed suite-Test_Plan -->
+                      <a href="#" panel-name="suite-Test_Plan" class="show-methods passed suite-Test_Plan"> (show)</a> <!-- show-methods passed suite-Test_Plan -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Plan">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Plan" title="maudio.test.suite.tests.SearchTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Plan" title="maudio.test.suite.tests.AddToCartTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Plan" title="maudio.test.suite.tests.RemoveFromCartTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Plan" title="maudio.test.suite.tests.LogInPositiveTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Plan" title="maudio.test.suite.tests.LogInNegativeTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Plan" title="maudio.test.suite.tests.PriseDisplayTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Plan" title="maudio.test.suite.tests.CompareTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Plan" title="maudio.test.suite.tests.CatalogFilterTest" hash-for-method="xTest">xTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Plan -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Plan" class="panel Test_Plan">
+          <div class="suite-Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">maudio.test.suite.tests.PriseDisplayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Plan-class-passed -->
+          <div class="suite-Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">maudio.test.suite.tests.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Plan-class-passed -->
+          <div class="suite-Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">maudio.test.suite.tests.LogInPositiveTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Plan-class-passed -->
+          <div class="suite-Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">maudio.test.suite.tests.CompareTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Plan-class-passed -->
+          <div class="suite-Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">maudio.test.suite.tests.CatalogFilterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Plan-class-passed -->
+          <div class="suite-Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">maudio.test.suite.tests.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Plan-class-passed -->
+          <div class="suite-Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">maudio.test.suite.tests.LogInNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Plan-class-passed -->
+          <div class="suite-Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">maudio.test.suite.tests.RemoveFromCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xTest">
+                  </a> <!-- xTest -->
+                  <span class="method-name">xTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Plan-class-passed -->
+        </div> <!-- panel Test_Plan -->
+        <div panel-name="test-xml-Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\.mywork\workspace\miniSMART_Java\WebDriver\src\test\resources\TestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Test Plan&quot;&gt;
+  &lt;parameter name=&quot;elementsMark&quot; value=&quot;//div[@class=&amp;#039;border&amp;#039;]//div[@class=&amp;#039;name&amp;#039;]/a[contains(., &amp;#039;AKG&amp;#039;)]&quot;/&gt;
+  &lt;parameter name=&quot;startpage&quot; value=&quot;http://www.maudio.by&quot;/&gt;
+  &lt;parameter name=&quot;catalogXpath&quot; value=&quot;//div[@class=&amp;#039;box&amp;#039;]//a[contains(., &amp;#039;Все наушники&amp;#039;)]&quot;/&gt;
+  &lt;parameter name=&quot;itemToBuyButton&quot; value=&quot;//div[@class=&amp;#039;border&amp;#039;]//div[2]/div[@class=&amp;#039;cart&amp;#039;]/input[@value=&amp;#039;Купить&amp;#039;]&quot;/&gt;
+  &lt;parameter name=&quot;soughforitem&quot; value=&quot;//div[@class=&amp;#039;border&amp;#039;]//a[contains(., &amp;#039;KOSS The PLUG&amp;#039;)]&quot;/&gt;
+  &lt;parameter name=&quot;firstItem&quot; value=&quot;//div[@class=&amp;#039;border&amp;#039;]//div[2]/div[@class=&amp;#039;compare&amp;#039;]/a&quot;/&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;procrastination&quot;/&gt;
+  &lt;parameter name=&quot;secondItem&quot; value=&quot;//div[@class=&amp;#039;border&amp;#039;]//div[3]/div[@class=&amp;#039;compare&amp;#039;]/a&quot;/&gt;
+  &lt;parameter name=&quot;email&quot; value=&quot;scientificmethod@yandex.ru&quot;/&gt;
+  &lt;parameter name=&quot;itemToBuyName&quot; value=&quot;//div[@class=&amp;#039;border&amp;#039;]//div[2]/div[@class=&amp;#039;name&amp;#039;]/a&quot;/&gt;
+  &lt;parameter name=&quot;invalidEmail&quot; value=&quot;jnhewrg&quot;/&gt;
+  &lt;parameter name=&quot;searchtext&quot; value=&quot;KOSS The PLUG&quot;/&gt;
+  &lt;parameter name=&quot;invalidPassword&quot; value=&quot;kljne&quot;/&gt;
+  &lt;parameter name=&quot;filterMark&quot; value=&quot;//div[@class=&amp;#039;filter-item&amp;#039;]//a[contains(., &amp;#039;AKG&amp;#039;)]&quot;/&gt;
+  &lt;test name=&quot;01. Search Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;maudio.test.suite.tests.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 01. Search Test --&gt;
+  &lt;test name=&quot;02. Add to cart Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;maudio.test.suite.tests.AddToCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 02. Add to cart Test --&gt;
+  &lt;test name=&quot;03. Remove from Cart Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;maudio.test.suite.tests.RemoveFromCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 03. Remove from Cart Test --&gt;
+  &lt;test name=&quot;04. Log In positive Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;maudio.test.suite.tests.LogInPositiveTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 04. Log In positive Test --&gt;
+  &lt;test name=&quot;05. Log In negative Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;maudio.test.suite.tests.LogInNegativeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 05. Log In negative Test --&gt;
+  &lt;test name=&quot;06. Prise display Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;maudio.test.suite.tests.PriseDisplayTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 06. Prise display Test --&gt;
+  &lt;test name=&quot;07. Comparison Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;maudio.test.suite.tests.CompareTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 07. Comparison Test --&gt;
+  &lt;test name=&quot;08. Catalog filter Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;maudio.test.suite.tests.CatalogFilterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 08. Catalog filter Test --&gt;
+&lt;/suite&gt; &lt;!-- Test Plan --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Plan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">01. Search Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">02. Add to cart Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">03. Remove from Cart Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">04. Log In positive Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">05. Log In negative Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">06. Prise display Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">07. Comparison Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">08. Catalog filter Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Plan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Plan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Plan');
+function tableData_Test_Plan() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'xTest')
+data.setCell(0, 2, 'maudio.test.suite.tests.AddToCartTest')
+data.setCell(0, 3, 18416);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'xTest')
+data.setCell(1, 2, 'maudio.test.suite.tests.CompareTest')
+data.setCell(1, 3, 17262);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'xTest')
+data.setCell(2, 2, 'maudio.test.suite.tests.RemoveFromCartTest')
+data.setCell(2, 3, 15988);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'xTest')
+data.setCell(3, 2, 'maudio.test.suite.tests.SearchTest')
+data.setCell(3, 3, 13884);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'xTest')
+data.setCell(4, 2, 'maudio.test.suite.tests.PriseDisplayTest')
+data.setCell(4, 3, 13686);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'xTest')
+data.setCell(5, 2, 'maudio.test.suite.tests.CatalogFilterTest')
+data.setCell(5, 3, 13649);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'xTest')
+data.setCell(6, 2, 'maudio.test.suite.tests.LogInPositiveTest')
+data.setCell(6, 3, 13229);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'xTest')
+data.setCell(7, 2, 'maudio.test.suite.tests.LogInNegativeTest')
+data.setCell(7, 3, 11109);
+window.suiteTableData['Test_Plan']= { tableData: data, tableDiv: 'times-div-Test_Plan'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Test_Plan">
+              </div> <!-- times-div-Test_Plan -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Plan</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">--------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'maudio.test.suite.tests.SearchTest' =====================<br></span>
+                <span class="reporter-method-output">--------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Main page' appears in 570msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'Search textbox' :: Typing 'KOSS The PLUG'<br></span>
+                <span class="reporter-method-output">Button 'Search button' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Search results' appears in 1420msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'Ссылка на искомый товар' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Item page' appears in 1553msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">*******************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'maudio.test.suite.tests.SearchTest' Passed! *****<br></span>
+                <span class="reporter-method-output">*******************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'maudio.test.suite.tests.AddToCartTest' =====================<br></span>
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Main page' appears in 2320msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Goods catalog' appears in 2950msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Cart' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Cart' appears in 4009msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">**********************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'maudio.test.suite.tests.AddToCartTest' Passed! *****<br></span>
+                <span class="reporter-method-output">**********************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">----------------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'maudio.test.suite.tests.RemoveFromCartTest' =====================<br></span>
+                <span class="reporter-method-output">----------------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Main page' appears in 650msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Goods catalog' appears in 4900msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Cart' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Cart' appears in 1480msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Cart' appears in 1060msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">***************************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'maudio.test.suite.tests.RemoveFromCartTest' Passed! *****<br></span>
+                <span class="reporter-method-output">***************************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">---------------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'maudio.test.suite.tests.LogInPositiveTest' =====================<br></span>
+                <span class="reporter-method-output">---------------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Main page' appears in 420msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'Log in or register' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Become a client' appears in 1320msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'null' :: Typing 'scientificmethod@yandex.ru'<br></span>
+                <span class="reporter-method-output">Text Field 'null' :: Typing 'procrastination'<br></span>
+                <span class="reporter-method-output">Button 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'User Page' appears in 1760msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">**************************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'maudio.test.suite.tests.LogInPositiveTest' Passed! *****<br></span>
+                <span class="reporter-method-output">**************************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">---------------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'maudio.test.suite.tests.LogInNegativeTest' =====================<br></span>
+                <span class="reporter-method-output">---------------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Main page' appears in 841msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'Log in or register' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Become a client' appears in 1170msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'null' :: Typing 'jnhewrg'<br></span>
+                <span class="reporter-method-output">Text Field 'null' :: Typing 'kljne'<br></span>
+                <span class="reporter-method-output">Button 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Become a client' appears in 1602msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">**************************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'maudio.test.suite.tests.LogInNegativeTest' Passed! *****<br></span>
+                <span class="reporter-method-output">**************************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">--------------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'maudio.test.suite.tests.PriseDisplayTest' =====================<br></span>
+                <span class="reporter-method-output">--------------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Main page' appears in 429msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Goods catalog' appears in 3250msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Item page' appears in 2370msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Item page' appears in 310msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">*************************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'maudio.test.suite.tests.PriseDisplayTest' Passed! *****<br></span>
+                <span class="reporter-method-output">*************************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">---------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'maudio.test.suite.tests.CompareTest' =====================<br></span>
+                <span class="reporter-method-output">---------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Main page' appears in 420msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Goods catalog' appears in 4612msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Items comparison' appears in 2068msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">********************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'maudio.test.suite.tests.CompareTest' Passed! *****<br></span>
+                <span class="reporter-method-output">********************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">xTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">---------------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'maudio.test.suite.tests.CatalogFilterTest' =====================<br></span>
+                <span class="reporter-method-output">---------------------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Main page' appears in 453msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Goods catalog' appears in 3923msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Label 'null' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Goods catalog' appears in 2430msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">**************************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'maudio.test.suite.tests.CatalogFilterTest' Passed! *****<br></span>
+                <span class="reporter-method-output">**************************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Plan" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">maudio.test.suite.tests.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@16b61c3)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">readParams(http://www.maudio.by, KOSS The PLUG, //div[@class='border']//a[contains(., 'KOSS The PLUG')])</span>
+                <span class="method-start">170 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">14064 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">maudio.test.suite.tests.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@df4bfc)</span>
+                <span class="method-start">15029 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">readParams(http://www.maudio.by, //div[@class='box']//a[contains(., 'Все наушники')], //div[@class='border']//d...)</span>
+                <span class="method-start">25440 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">25490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">43906 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">maudio.test.suite.tests.RemoveFromCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@1f5b4d1)</span>
+                <span class="method-start">44596 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">readParams(http://www.maudio.by, //div[@class='box']//a[contains(., 'Все наушники')], //div[@class='border']//d...)</span>
+                <span class="method-start">51101 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">51101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">67089 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">maudio.test.suite.tests.LogInPositiveTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@323274)</span>
+                <span class="method-start">67780 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">readParams(http://www.maudio.by, scientificmethod@yandex.ru, procrastination)</span>
+                <span class="method-start">78506 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">78506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">91735 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">maudio.test.suite.tests.LogInNegativeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@18e80a6)</span>
+                <span class="method-start">92446 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">readParams(http://www.maudio.by, jnhewrg, kljne)</span>
+                <span class="method-start">102647 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">102647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">113756 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">maudio.test.suite.tests.PriseDisplayTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@a030d6)</span>
+                <span class="method-start">114406 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">readParams(http://www.maudio.by, //div[@class='box']//a[contains(., 'Все наушники')], //div[@class='border']//d...)</span>
+                <span class="method-start">125033 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">125033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">138719 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">maudio.test.suite.tests.CompareTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@e63606)</span>
+                <span class="method-start">139440 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">readParams(http://www.maudio.by, //div[@class='box']//a[contains(., 'Все наушники')], //div[@class='border']//d...)</span>
+                <span class="method-start">144869 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">144881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">162153 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">maudio.test.suite.tests.CatalogFilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@1e4eb5b)</span>
+                <span class="method-start">162884 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">readParams(http://www.maudio.by, //div[@class='filter-item']//a[contains(., 'AKG')], //div[@class='border']//di...)</span>
+                <span class="method-start">173627 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">xTest</span>
+                <span class="method-start">173627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">187276 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

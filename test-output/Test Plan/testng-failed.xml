@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Plan]">
+  <parameter name="elementsMark" value="//div[@class=&#039;border&#039;]//div[@class=&#039;name&#039;]/a[contains(., &#039;AKG&#039;)]"/>
+  <parameter name="catalogXpath" value="//div[@class=&#039;box&#039;]//a[contains(., &#039;Все наушники&#039;)]"/>
+  <parameter name="itemToBuyButton" value="//div[@class=&#039;border&#039;]//div[2]/div[@class=&#039;cart&#039;]/input[@value=&#039;Купить&#039;]"/>
+  <parameter name="soughforitem" value="//div[@class=&#039;border&#039;]//a[contains(., &#039;KOSS The PLUG&#039;)]"/>
+  <parameter name="firstItem" value="//div[@class=&#039;border&#039;]//div[2]/div[@class=&#039;compare&#039;]/a"/>
+  <parameter name="password" value="procrastination"/>
+  <parameter name="secondItem" value="//div[@class=&#039;border&#039;]//div[3]/div[@class=&#039;compare&#039;]/a"/>
+  <parameter name="email" value="scientificmethod@yandex.ru"/>
+  <parameter name="itemToBuyName" value="//div[@class=&#039;border&#039;]//div[2]/div[@class=&#039;name&#039;]/a"/>
+  <parameter name="invalidEmail" value="jnhewrg"/>
+  <parameter name="searchtext" value="KOSS The PLUG"/>
+  <parameter name="invalidPassword" value="kljne"/>
+  <parameter name="filterMark" value="//div[@class=&#039;filter-item&#039;]//a[contains(., &#039;AKG&#039;)]"/>
+  <test name="10. Last fckn Test(failed)">
+    <classes>
+      <class name="maudio.test.suite.tests.SortingTest">
+        <methods>
+          <include name="readParams"/>
+          <include name="after"/>
+          <include name="xTest"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- maudio.test.suite.tests.SortingTest -->
+    </classes>
+  </test> <!-- 10. Last fckn Test(failed) -->
+</suite> <!-- Failed suite [Test Plan] -->
